@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 # edgeじゃないとChromiumのバージョンが57
 RUN apk --no-cache add chromium chromium-chromedriver  udev ttf-freefont tshark
 
